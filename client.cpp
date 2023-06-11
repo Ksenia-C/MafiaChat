@@ -652,6 +652,7 @@ public:
         my_role_ = std::move(my_role);
         other_players_.clear();
         dead_players_.clear();
+        mafia_players_.clear();
         is_day_now_ = true;
     }
 
